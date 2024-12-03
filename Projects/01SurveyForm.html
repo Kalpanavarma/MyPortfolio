@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: rgb(121, 151, 73);
+        }
+    </style>
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <label for="name">*Name:<input type="text" id="name" placeholder="Enter your name" required></label>
+    <br><br>
+    <label for="email">*Email:<input type="email" id="email" placeholder="Enter your Email" required></label>
+    <br><br>
+    <label for="age">*Age:<input type="number" id="age" placeholder="Age" min="18" max="60"></label>
+    <br>
+    <p>Which option best describes your current role?</p>
+    <select>
+        <option>Student</option>
+        <option>Post-Graduate</option>
+        <option>Employee</option>
+        <option>Business</option>
+    </select>
+    <p> How likely is that you would recommend<br>freeCodeCamp to a friend?</p>
+    <input type="radio" id="sure" value="Definitely">
+    <label for="sure" >Definitely</label>
+    <br>
+    <input type="radio" id="Maybe" value="Maybe">
+    <label for="Maybe">Maybe</label>
+    <br>
+    <input type="radio" id="Notsure" value="Notsure">
+    <label for="Notsure">Not sure</label>
+    <br>
+    <p>What do you like most in FCC:</p>
+    <select>
+        <option>Select an option</option>
+        <option>programming</option>
+        <option>coding</option>
+        <option>practising</option>
+    </select>
+    <p>Things that should be improved in the future<br>
+    (Check all that apply)</p>
+    
+    <input type="checkbox" id="fep" value="Front-end Projects">
+    <label for="fep">Front-end Projects</label>
+    <br>
+    <input type="checkbox" id="bep" value="Back-end Projects">
+    <label for="bep">Back-end Projects</label>
+    <br>
+    <input type="checkbox" id="dv" value="Datavis">
+    <label for="dv">Data Visualization</label>
+    <br>
+</body>
+</html>
